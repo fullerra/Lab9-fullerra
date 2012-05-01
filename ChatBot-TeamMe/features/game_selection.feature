@@ -20,3 +20,9 @@ Given the application is running
 Given I type "Tim"
 When I type "1"
 Then the output should contain "I refuse to play that game!"
+
+Scenario: User inputs right game number
+Given the application is running
+Given I type "Tim"
+When I type "5"
+Then the output should contain "BOOM!"
